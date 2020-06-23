@@ -1,0 +1,19 @@
+body {
+  padding-top: 2px;
+  margin: 3rem 2rem 2rem;
+}
+
+.container {
+  width: auto;
+  max-width: 1600px;
+}
+
+.header {
+  width: 100%;
+  position: fixed;
+  height: 70px;
+  background-color: rgba(255, 255, 253, 0.75);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  top: 0;
+  box-shadow: 0 0.5rem 1.25rem rgba(0, 0, 0, 0.05);
+}

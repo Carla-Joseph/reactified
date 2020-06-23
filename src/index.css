@@ -7,6 +7,189 @@ html {
 }
 
 body {
-  margin: 0;
   min-height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 14px;
+  background-color: #fff;
 }
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 2rem;
+}
+
+header {
+  height: 50px;
+  margin-top: 2rem;
+}
+
+.hello-world {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+header ul {
+  text-align: start;
+  text-decoration: none;
+  list-style: none;
+}
+
+.home {
+  text-decoration: none;
+  color: #586069;
+  margin-left: 1.5rem;
+}
+
+.leftHeader {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.rightHeader {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+}
+
+a:link, a:visited {
+  color: inherit;
+}
+
+header li+li {
+  margin-left: 1rem;
+}
+
+.octo, .terra {
+  display: block;
+}
+
+.octo img {
+  padding: 2rem;
+  border: 1px solid black;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  border-radius: 10px;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.details p, .details h4 {
+  margin: 0;
+}
+
+section {
+  width: 327px;
+}
+
+.queer, .Terracottocat, .Blacktocats, .Grinchtocat, .punk, .docto, .ben, .minerto, .jetpack, .cooler, .delos, .nyanto {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+.terra img {
+  padding: 2rem;
+  border: 1px solid black;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  border-radius: 10px;
+}
+
+.black img {
+  padding: 2rem;
+  border: 1px solid black;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  border-radius: 10px;
+}
+
+.grinch img {
+  padding: 2rem;
+  border: 1px solid black;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  border-radius: 10px;
+}
+
+.daft img {
+  padding: 2rem;
+  border: 1px solid black;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  border-radius: 10px;
+}
+
+.doc img {
+  padding: 2rem;
+  border: 1px solid black;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  border-radius: 10px;
+}
+
+.banne img {
+  padding: 2rem;
+  border: 1px solid black;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  border-radius: 10px;
+}
+
+.miner img {
+  padding: 2rem;
+  border: 1px solid black;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  border-radius: 10px;
+}
+
+.jet img {
+  padding: 2rem;
+  border: 1px solid black;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  border-radius: 10px;
+}
+
+.cool img {
+  padding: 2rem;
+  border: 1px solid black;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  border-radius: 10px;
+}
+
+.muertos img {
+  padding: 2rem;
+  border: 1px solid black;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  border-radius: 10px;
+}
+
+.nyan img {
+  padding: 2rem;
+  border: 1px solid black;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  border-radius: 10px;
+}
+
+footer {
+  color: #586069;
+  text-align: left;
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+  padding-top: 1rem;
+}
+
